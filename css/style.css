@@ -391,7 +391,6 @@ input:focus::placeholder {
 }
 
 /****** Activités ***********/
-
 .section-activites {
     display: flex;
     flex-direction: column;
@@ -430,6 +429,24 @@ input:focus::placeholder {
     border-bottom-left-radius: 20px;
     background-color: white;
     }
+
+/****** Activités ***********/
+footer {
+    display: flex;
+    background-color: var(--main-bg-color);
+}
+
+footer h3 {
+    font-size: 18px;
+}
+
+.bloc-footer {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/3);
+    gap: 15px;
+    padding: 20px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
