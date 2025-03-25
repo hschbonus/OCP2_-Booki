@@ -391,14 +391,13 @@ input:focus::placeholder {
 }
 
 /****** Activités ***********/
+
 .section-activites {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 30px;
-    width: 100%;
     padding: 30px;
-    box-sizing: border-box;
 }
 
 .activites-ligne {
@@ -406,14 +405,18 @@ input:focus::placeholder {
     gap: 30px;
 }
 
+.activites-ligne a {
+    width: calc((100% - 90px)/4);
+}
+
 .activite-card {
+    width: 100%;
+    height: 439px;
     display: flex;
     flex-direction: column;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
 .activite-card img {
-    width: 100%;
     height: 380px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -428,9 +431,11 @@ input:focus::placeholder {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     background-color: white;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     }
+  
 
-/****** Activités ***********/
+/****** Footer ***********/
 footer {
     display: flex;
     background-color: var(--main-bg-color);
@@ -443,7 +448,7 @@ footer h3 {
 .bloc-footer {
     display: flex;
     flex-direction: column;
-    width: calc(100%/3);
+    width: calc(100% / 3);
     gap: 15px;
     padding: 20px;
 }
