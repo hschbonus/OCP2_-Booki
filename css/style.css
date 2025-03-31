@@ -319,6 +319,7 @@ input:focus::placeholder {
 .hebergements-and-populaires section {
     border-radius: 20px;
     padding: 30px;
+    margin-top: 35px;
     box-sizing: border-box;
 }
 
